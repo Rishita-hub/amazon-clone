@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: cadetblue;
+    margin: 0;
+    padding: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+.grid-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
+.grid-item .price {
+    margin-top: 10px;
+    font-weight: bold;
+}
